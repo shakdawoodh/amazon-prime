@@ -1,0 +1,80 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+@import url('https://fonts.cdnfonts.com/css/amazon-ember');
+body{
+    --nav-color:#1A242F;
+    --button-color:#0F79AF;
+    --white-color:#fff;
+    --black-color:#000;
+    --blue-font:#1A98FF;
+    --bg-color:#222222;
+    --header-font:#D0E0E3;
+}
+.header_section{
+    height: 72px;
+    background-color: var(--nav-color);
+    display: flex;
+    align-items: center;
+}
+.navbar{
+    width:93%;
+    margin: 0 auto;   
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.navbar .left_side{
+    display: flex;
+    align-items: center;
+}
+
+.logo_section img{
+    width:115px;
+}
+.right_side{
+    display: flex;
+    align-items: center;
+}
+.header_links ul {
+    font-size:17px;
+    gap:16px;
+    font-family: 'Amazon Ember', sans-serif;
+    margin-left:26px;
+    align-items: center;
+    list-style: none;
+    display: flex;
+}
+.header_links ul li a{
+    color: var(--header-font);
+    text-decoration: none;
+}
+.header_right_side_section{
+    display: flex;
+    align-items: center;
+}
+
+.header_right_side_section .button_section a{
+    background-color: var(--button-color);
+    border-radius:4px;
+    padding:10px 26px ;
+    width: 50px;
+    height:16px;
+    color: var(--white-color);
+    text-decoration: none;
+    font-family: 'Amazon Ember', sans-serif;
+   
+}
+.header_right_side_section{
+    display: flex;
+    gap: 16px;
+}
+.header_right_side_section ul{
+  gap: 16px;
+  list-style: none;
+  display:flex;
+  color: var(--header-font);
+}
+
