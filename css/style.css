@@ -13,6 +13,8 @@ body{
     --bg-color:#222222;
     --header-font:#D0E0E3;
 }
+
+/* HEADER SECTION STARTS */
 .header_section{
     height: 72px;
     background-color: var(--nav-color);
@@ -77,4 +79,17 @@ body{
   display:flex;
   color: var(--header-font);
 }
+.header_right_side_section ul li a span{
+    font-size:28px;
+  color: var(--header-font);
+}
+/* HEADER SECTION END */
+
+
+/* LANDING PAGE SECTION STARTS */
+.landing_page{
+
+}
+
+/* LANDING PAGE SECTION END */
 
